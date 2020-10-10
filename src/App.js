@@ -21,6 +21,7 @@ import WeeklyNews from "./pages/WeeklyNews";
 import Contact from "./pages/ContactPage";
 import PrayerRequest from "./pages/PrayerRequest";
 import PrayerRequestList from "./pages/PrayerRequestList";
+import AllSoulsFeast from './pages/AllSoulsFeast';
 import History from './pages/HistoryPage';
 import PrintedCalendarPage from './pages/PrintedCalendarPage';
 import FallFestPage from './pages/FallFestPage';
@@ -126,6 +127,7 @@ const App = () => {
           <Route path="/st-joseph-classwork/:stJosephClassURL" component={StJosephClassworkPage}/>
           <Route path="/Articles" component={Articles}/>
           <Route path="/ArticleDetail/:date" component={ArticleDetail}/>
+          <Route path="/AllSoulsFeast" component={AllSoulsFeast}/>
           <Route path="/cookies" component={CookiePage}/>
     </Router>
   ) 
